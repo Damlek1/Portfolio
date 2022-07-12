@@ -15,7 +15,7 @@ const Footer = () => {
                 <li className='w-[140px] h-[60px] flex justify-between items-center bg-[#6fc2b0] m-2'>
                   <a className='flex justify-between items-center w-full text-gray-300' href='mailto: ajayioluwasegun111@gmail.com' >Email <HiOutlineMail size={30} /></a></li>
                 <li className='w-[140px] h-[60px] flex justify-between items-center bg-[#565f69] m-2'>
-                  <a className='flex justify-between items-center w-full text-gray-300' href='/' >Resume <BsFillPersonLinesFill size={30} /></a></li>
+                  <a className='flex justify-between items-center w-full text-gray-300' href='https://drive.google.com/file/d/1AYQ3oLNk6a0404M11MBXFHoJXRmCr1TH/view' >Resume <BsFillPersonLinesFill size={30} /></a></li>
             </ul>
         </div>
     </div>
