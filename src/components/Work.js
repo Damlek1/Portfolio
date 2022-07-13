@@ -5,6 +5,7 @@ import crypto1 from '../assets/crypto1.png'
 import website from '../assets/websiteimg.png'
 import restaurant from '../assets/restaurant.png'
 import realestate from '../assets/real-estate.png'
+import arrow from '../assets/arrow.png'
 
 
 const Work = () => {
@@ -99,6 +100,11 @@ const Work = () => {
                              px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button></a>
                         </div>
                     </div>
+                </div>
+                <div className='flex flex-1 align-center justify-center group container'>
+                <a className='hover:underline transition duration-300 justify-center items-center font-bold flex' href='https://github.com/Damlek1'
+                target='_blank' rel="noopener noreferrer">Check my other projects on github.<span className='relative group-hover:left-4 duration-300 max-w-[9%] ml-3'>
+                    <img className='' src={arrow} alt='arrow' /></span></a>
                 </div>
             </div>
         </div>
