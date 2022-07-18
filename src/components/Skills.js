@@ -16,7 +16,7 @@ const Skills = () => {
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-[90%]'>
             <div>
                 <p className='text-4xl font-bold inline border-b-4 border-pink-500'>Skills & Technologies</p>
-                <p className='py-4 animate-bounce h-6'>{"// These are some of the technologies I've worked with"}</p>
+                <p className='py-4 animate-bounce h-6'>{"// These are skills, tools and technologies I work with"}</p>
             </div>
             <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
@@ -52,7 +52,7 @@ const Skills = () => {
                     <p className='my-4'>MATERIAL UI</p>
                 </div>
             </div>
-                <p className='w-full mt-[-5px]'>Others are: NodeJS, Npm, Git </p>
+                <p className='w-full mt-[-5px]'>Others are: NodeJS, Npm, Git, Responsive website, VS Code, PWA </p>
         </div>
     </div>
   )
