@@ -7,14 +7,15 @@ import Github from '../assets/github.png'
 import Git from '../assets/git.png'
 import Tailwind from '../assets/tailwind.png'
 import MateialUi from '../assets/material-ui.png'
+import next from '../assets/nextjs.png'
 
 const Skills = () => {
   return (
     <div name='skills' className='w-full h-screen bg-[#0a192f] text-gray-300'>
         {/* container */}
-        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+        <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-[90%]'>
             <div>
-                <p className='text-4xl font-bold inline border-b-4 border-pink-500'>Skills</p>
+                <p className='text-4xl font-bold inline border-b-4 border-pink-500'>Skills & Technologies</p>
                 <p className='py-4 animate-bounce h-6'>{"// These are some of the technologies I've worked with"}</p>
             </div>
             <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
@@ -35,22 +36,23 @@ const Skills = () => {
                     <p className='my-4'>REACT</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={next} alt='html' />
+                    <p className='my-4'>NextJS</p>
+                </div>
+                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Github} alt='html' />
                     <p className='my-4'>GITHUB</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                    <img className='w-20 mx-auto' src={Git} alt='html' />
-                    <p className='my-4'>GIT</p>
-                </div>
-                <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Tailwind} alt='html' />
-                    <p className='my-4'>TAILWIND</p>
+                    <p className='my-4'>TAILWIND CSS</p>
                 </div>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={MateialUi} alt='html' />
                     <p className='my-4'>MATERIAL UI</p>
                 </div>
             </div>
+                <p className='w-full mt-[-5px]'>Others are: NodeJS, Npm, Git </p>
         </div>
     </div>
   )
