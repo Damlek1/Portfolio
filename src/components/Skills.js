@@ -4,7 +4,6 @@ import Css from '../assets/css.png'
 import Javascript from '../assets/javascript.png'
 import ReactImg from '../assets/react.png'
 import Github from '../assets/github.png'
-import Git from '../assets/git.png'
 import Tailwind from '../assets/tailwind.png'
 import MateialUi from '../assets/material-ui.png'
 import next from '../assets/nextjs.png'
@@ -16,7 +15,7 @@ const Skills = () => {
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-[90%]'>
             <div>
                 <p className='text-4xl font-bold inline border-b-4 border-pink-500'>Skills & Technologies</p>
-                <p className='py-4 animate-bounce h-6'>{"// These are skills, tools and technologies I work with"}</p>
+                <p className='py-4'>{"// These are skills, tools and technologies I work with"}</p>
             </div>
             <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
                 <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
