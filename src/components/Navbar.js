@@ -52,7 +52,7 @@ const Navbar = () => {
         {/* Hummerburet */}
         <div onClick={handleClick} className='md:hidden z-10 cursor-pointer'>
             {
-                !nav ? <FaBars /> : <FaTimes />
+                !nav ? <FaBars size={25} /> : <FaTimes size={25} />
             }
         </div>
         {/* Mobile Menu */}
