@@ -25,9 +25,9 @@ const Work = () => {
                         </span>
                         <div>
                             <a href='https://damlek1-weather1.netlify.app'><button className='text-center rounded-lg px-4 py-3 m-2
-                             bg-white text-gray-700 font-bold text-lg'>Demo</button></a>
+                             bg-white text-gray-700 font-bold text-lg'>Live Demo</button></a>
                             <a href='https://github.com/Damlek1/react-weather-api'><button className='text-center rounded-lg px-4
-                            py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button></a>
+                            py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Github</button></a>
                         </div>
                     </div>
                 </div>
@@ -39,9 +39,9 @@ const Work = () => {
                         </span>
                         <div>
                             <a href='https://cloud-management-damlek1.vercel.app'><button className='text-center rounded-lg px-4
-                            py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button></a>
+                            py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live Demo</button></a>
                             <a href='https://github.com/Damlek1/cloud-management'><button className='text-center rounded-lg px-4
-                            py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button></a>
+                            py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Github</button></a>
                         </div>
                     </div>
                 </div>
@@ -53,9 +53,9 @@ const Work = () => {
                         </span>
                         <div>
                             <a href='https://crypto-app-damlek1.vercel.app'><button className='text-center rounded-lg px-4 py-3 m-2
-                             bg-white text-gray-700 font-bold text-lg'>Demo</button></a>
+                             bg-white text-gray-700 font-bold text-lg'>Live Demo</button></a>
                             <a href='https://github.com/Damlek1/Crypto-App'><button className='text-center rounded-lg px-4 py-3 m-2
-                             bg-white text-gray-700 font-bold text-lg'>Code</button></a>
+                             bg-white text-gray-700 font-bold text-lg'>Github</button></a>
                         </div>
                     </div>
                 </div>
@@ -67,9 +67,9 @@ const Work = () => {
                         </span>
                         <div>
                             <a href='https://e-bank-damlek1.vercel.app'><button className='text-center rounded-lg px-4 py-3 m-2
-                             bg-white text-gray-700 font-bold text-lg'>Demo</button></a>
+                             bg-white text-gray-700 font-bold text-lg'>Live Demo</button></a>
                             <a href='https://github.com/Damlek1/Banking-App'><button className='text-center rounded-lg px-4 py-3 m-2
-                             bg-white text-gray-700 font-bold text-lg'>Code</button></a>
+                             bg-white text-gray-700 font-bold text-lg'>Github</button></a>
                         </div>
                     </div>
                 </div>
@@ -81,9 +81,9 @@ const Work = () => {
                         </span>
                         <div>
                             <a href='https://real-estate-damlek1.vercel.app'><button className='text-center rounded-lg
-                             px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button></a>
+                             px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Live Demo</button></a>
                             <a href='https://github.com/Damlek1/Real-Estate'><button className='text-center rounded-lg
-                             px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button></a>
+                             px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Github</button></a>
                         </div>
                     </div>
                 </div>
@@ -95,9 +95,9 @@ const Work = () => {
                         </span>
                         <div>
                             <a href='https://foodyummy.vercel.app'><button className='text-center rounded-lg px-4 py-3 m-2
-                             bg-white text-gray-700 font-bold text-lg'>Demo</button></a>
+                             bg-white text-gray-700 font-bold text-lg'>Live Demo</button></a>
                             <a href='https://github.com/Damlek1/Restaurant-website'><button className='text-center rounded-lg
-                             px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button></a>
+                             px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Github</button></a>
                         </div>
                     </div>
                 </div>
