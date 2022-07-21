@@ -78,7 +78,13 @@ const Skills = () => {
                     ))
                 }
             </div>
-            <p className='px-10 w-full md:px-0 mt-[-5px]'>Others are: Material UI, Npm, Git, Responsive website, VS Code, PWA </p>
+            <p className='px-10 w-full md:px-0 mt-[-5px] '><span className='text-2xl font-bold'>Others are: </span>
+            <span className='text-lg'>Material UI, </span>
+            <span className='text-lg'>Npm, </span>
+            <span className='text-lg'>Git, </span>
+            <span className='text-lg'>Responsive website, </span>
+            <span className='text-lg'>VSCode, </span>
+            <span className='text-lg'>PWA </span></p>
         </div>
     </div>
       )
