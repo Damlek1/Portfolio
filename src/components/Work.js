@@ -84,12 +84,16 @@ const Work = () => {
                 ))
             }
             </div>
-        </div>
-        <div className='mt-5'>
+
+            <span className='w-full mt-6 grid sm:grid-cols-2 md:grid-cols-3 gap-8 sm:px-0'>
              <a className='group container hover:underline transition duration-300 justify-center items-center font-bold flex' href='https://github.com/Damlek1'
              target='_blank' rel="noopener noreferrer">Check my other projects on github.
                  <span className='group-hover:scale-150 duration-300'><HiArrowNarrowRight size={30} className='ml-1' /></span>
                  </a>
+                 </span>
+
+
+
         </div>
     </div>
       )
