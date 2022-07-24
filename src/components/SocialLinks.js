@@ -42,18 +42,20 @@ const SocialLinks = () => {
                 Resume<BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: 'https://drive.google.com/file/d/1AYQ3oLNk6a0404M11MBXFHoJXRmCr1TH/view',
-            style4: 'bg-[#565f69]'
+            href: '/Oluwasegun_Ajayi_Resume.pdf',
+            // href: 'https://drive.google.com/file/d/1AYQ3oLNk6a0404M11MBXFHoJXRmCr1TH/view',
+            style4: 'bg-[#565f69]',
+            download: true,
         },
     ]
   return (
     <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
          <ul>
             {
-                links.map(({id, child, href, style1, style2, style3,style4})=> (
+                links.map(({id, child, href, style1, style2, style3,style4, download })=> (
                     // eslint-disable-next-line no-useless-concat
                     <li key={id} className={'w-40 h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300' + " " + style1 + " " + style2 + " " + style3 + " " + style4}>
-                      <a className='flex justify-between items-center w-full text-gray-300' href={href} target='_blank' rel="noopener noreferrer">{child}</a></li>
+                      <a className='flex justify-between items-center w-full text-gray-300' href={href} download={download} target='_blank' rel="noopener noreferrer">{child}</a></li>
 
                     ))
                 }
