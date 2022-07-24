@@ -42,9 +42,10 @@ const Footer = () => {
             Resume<BsFillPersonLinesFill size={30} />
             </>
         ),
-        href: 'https://drive.google.com/file/d/1AYQ3oLNk6a0404M11MBXFHoJXRmCr1TH/view',
+        href: '../assets/Oluwasegun_Ajayi_Resume.pdf',
+        // href: 'https://drive.google.com/file/d/1AYQ3oLNk6a0404M11MBXFHoJXRmCr1TH/view',
         style4: 'bg-[#565f69]',
-
+        download: true,
     },
 ]
   return (
@@ -52,10 +53,10 @@ const Footer = () => {
     <div className='max-w-[1000px] px-4 justify-center grid lg:hidden'>
             <ul className='flex flex-wrap justify-center'>
             {
-                links.map(({id, child, href, style1, style2, style3,style4 })=> (
+                links.map(({id, child, href, style1, style2, style3,style4, download })=> (
                     // eslint-disable-next-line no-useless-concat
                     <li key={id} className={'w-[140px] h-[60px] flex justify-between items-center m-2' + " " + style1 + " " + style2 + " " + style3 + " " + style4}>
-                      <a className='flex justify-between items-center w-full text-gray-300' href={href} target='_blank' rel="noopener noreferrer">{child}</a></li>
+                      <a className='flex justify-between items-center w-full text-gray-300' href={href} download={download} target='_blank' rel="noopener noreferrer">{child}</a></li>
 
                     ))
                 }
