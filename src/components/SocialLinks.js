@@ -42,8 +42,8 @@ const SocialLinks = () => {
                 Resume<BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: '/Oluwasegun_Ajayi_Resume.pdf',
-            // href: 'https://drive.google.com/file/d/1AYQ3oLNk6a0404M11MBXFHoJXRmCr1TH/view',
+            // href: '/Oluwasegun_Ajayi_Resume.pdf',
+            href: 'https://drive.google.com/file/d/1AYQ3oLNk6a0404M11MBXFHoJXRmCr1TH/view',
             style4: 'bg-[#565f69]',
             download: true,
         },
